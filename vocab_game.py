@@ -109,11 +109,11 @@ ans2 = st.text_input(
 
 # 📌 จุดที่ 6  เพิ่มช่องรับคำตอบ  ans3 = st.text_input และ ans4 = st.text_input
 ans3 = st.text_input(
-    "ข้อ 1: I ate a sweet `st _ wb _ rry` for breakfast. 🍓",
+    "ข้อ 3: I ate a sweet `s t r _ w b _ r r y` for breakfast. 🍓",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 1: Monkeys love eating `b _ n _ n _ `. 🍌",
+    "ข้อ 4: Monkeys love eating `b _ n _ n _ `. 🍌",
     value=st.session_state.ans4_val,
 )
 
